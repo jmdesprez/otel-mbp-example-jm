@@ -20,6 +20,7 @@ pipeline {
                             sh MOCK_LOAD_COMMAND
                         }
                         sh "echo 'Execution completed!!!!!!!!!'"
+                        sh "echo 'Execution completed!!'"
                     }
                 }
                 stage('Stage-1.2') {
